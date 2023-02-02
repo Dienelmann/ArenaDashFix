@@ -12,8 +12,8 @@ public class GameManager : MonoBehaviour
       if (gameHasEnded == false)
       {
          gameHasEnded = true;
-         SceneManager.LoadScene("GameEnd");
-         Invoke("Restart", 3f);
+         
+         Invoke("Restart", 4f);
       }
    }
 
@@ -21,4 +21,6 @@ public class GameManager : MonoBehaviour
    {
       SceneManager.LoadScene("ArenaDash");
    }
+
+   
 }

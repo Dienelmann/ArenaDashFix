@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 3aa47911ffc526b4d96ce87a73789717
+  - enabled: 1
     path: Assets/Scenes/ArenaDash.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
