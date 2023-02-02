@@ -23,7 +23,9 @@ public class LifePoints : MonoBehaviour
         else if (Life < 3)
         {
             Destroy(Heart[2].gameObject);
+            FindObjectOfType<GameManager>().GameOver();
         }
+        
 
     }
 
