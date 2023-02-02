@@ -875,7 +875,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857658997}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.029158, y: -2.1598575, z: -3.8353992}
+  m_LocalPosition: {x: 0, y: 0, z: -3.8353992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1180,10 +1180,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bb58747b60b13c4f96d26709b1e45f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DashTime: 1
-  dashSpeed: 10
+  DashTime: 0.7
+  dashSpeed: 30
   speed: 20
-  thrust: 10
+  thrust: 15
   AxisNameH: H2
   AxisNameV: V2
   TakeDamage: {fileID: 0}
@@ -1250,7 +1250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203339955}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.5, y: -9, z: -2}
+  m_LocalPosition: {x: -13.14, y: -2.8, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1610,10 +1610,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bb58747b60b13c4f96d26709b1e45f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DashTime: 1
-  dashSpeed: 10
-  speed: 15
-  thrust: 5
+  DashTime: 0.7
+  dashSpeed: 30
+  speed: 20
+  thrust: 15
   AxisNameH: H1
   AxisNameV: V1
   TakeDamage: {fileID: 0}
